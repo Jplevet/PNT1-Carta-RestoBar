@@ -89,8 +89,23 @@ a {
     text-align: center;
 }
 
-#footer{
-    margin-top: 40px;
-    border-top: 1px solid black;
+footer il a {
+    color: rgb(201, 193, 193);
     text-align: center;
-}
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+
+#img-footer{
+    width: 30px;
+    margin-left: 5px;
+ }
+
+ footer p{
+    text-align: center;
+    font-size: 10px;
+ }
+ 
+.footer ul{
+    text-align: center;
+ }
