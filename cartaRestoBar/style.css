@@ -83,6 +83,10 @@ a {
     }
 }
 
+span{
+padding: 8px;
+}
+
 #nosotros{
     margin: 40px 20px 10px;
     border-top: 1px solid black;
