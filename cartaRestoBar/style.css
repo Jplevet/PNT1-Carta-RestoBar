@@ -8,20 +8,16 @@ html {
     align-items: center;
     border-bottom: 1px solid black;
     font-family: verdana;
-    
 }
 #nav-items {
     padding: 10px;
     display: flex;
-    align-items: center;
-    
-    
-    
+    align-items: center;    
 }
+
 #item-nav {
     padding-left: 10px;
-    align-items: flex-end;
-    
+    align-items: flex-end;    
 }
 #name {
     padding-left: 10px;
@@ -112,4 +108,13 @@ footer il a {
  
 .footer ul{
     text-align: center;
+ }
+
+.info{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
  }

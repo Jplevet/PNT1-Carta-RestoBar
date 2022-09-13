@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario</title>
+   </head>
+<body>
+    <div class = contenedor>
+        <div id="nav">
+            <div id="name">El Resto de Tu Vida</div>
+            <div id="nav-items">
+                <div id="item-nav"><a href="#productos">Productos</a></div>
+                <div id="item-nav"><a href="#nosotros">Nosotros</a></div>
+            </div>
+        </div>
+
+            <div class="cont-form">
+
+                <div class="info">
+                    <div class="title-plato-carta">
+                        <h4>Horarios:</h4>
+                        <p>Domingos, Martes y Miércoles de 19 a 02 hs - Cierre de cocina 01 am</p>
+                        <p>Jueves, Viernes y Sábados de 19 a 03 hs - Cierre de cocina 02 am</p>
+                    </div>
+                </div>                
+                <br>
+                <h2 id="contacto">O escribinos:</h2>
+                <form class="formulario" method="post">
+                <label for="nombre"><h3>* Nombre</h3>
+                    <input type="text" name="nombre" placeholder="Juan" required>
+                </label>
+    
+                <label for="apellido"><h3>* Apellido</h3>
+                    <input type="text" name="apellido" placeholder="Perez" required>
+                </label>
+                
+                <label for="email"><h3>* Email</h3>
+                    <input type="email" name="correo" required>
+                </label>
+    
+                <label for="telefono"><h3>* Teléfono</h3>
+                    <input type="tel" id="phone" name="telefono" pattern="[0-9]{3}[0-9]{4}[0-9]{4}">
+
+                </label>
+                
+    
+                <label for="esMayor18"><h3>¿Sos mayor de 18 </h3>
+                    <span id="span1" ><input type="radio" name="esMayor18" value="si" required >Sí</span>
+                    <span id="span1"><input type="radio" name="esMayor18" value="no" required >No</span>
+                </label>
+    
+            
+                <label for="genero"><h3>Género</h3>
+                    <select name="genero" id="genero">
+                        <option selected="" value="Default">otro</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="masculino">Masculino</option>
+                    </select>
+                </label>
+    
+    
+                <label for="comentarios" id=""><h3>Comentarios:</h3>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                </label>
+    
+                <label for="fechaNac"><h3>Fecha de nacimiento:</h3>
+                <input type="date" id="fechaNac" name="fechaNac" min="1900-01-01" max="2022-04-18">
+                     </label>
+    
+                <div class="submit-btn">
+                    <input type="submit" name="submit" value="Enviar">
+                </div>                
+                </form>                
+            </div>
+    
+            
+            <footer class="footer">
+                <ul>
+                    <il><a href="https://www.facebook.com/"><img id="img-footer" src="images/facebook.png" alt=""></a></il>
+                    <il><a href="https://www.instagram.com/?hl=es-la"><img id="img-footer" src="images/instagram.png" alt=""></a></il>
+                    <il><a href="https://web.whatsapp.com/"><img id="img-footer" src="images/whatsapp.png" alt=""></a></il>
+                    <il><a href="https://www.youtube.com/"><img id="img-footer" src="images/youtube.png" alt=""></a></il>
+                </ul>
+                <p>© 2022 El resto de tu vida. All rights reserved</p>
+            </footer>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
