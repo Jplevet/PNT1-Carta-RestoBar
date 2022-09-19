@@ -3,14 +3,12 @@ html {
 }
 
 #nav {
-    padding: 10px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid black;
     font-family: verdana;
 }
 #nav-items {
-    padding: 10px;
     display: flex;
     align-items: center;    
 }
@@ -143,3 +141,34 @@ footer il a {
     flex-basis: 60%;
     padding: 0 1rem;
 }
+
+/* NUEVA NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: gray;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
