@@ -10,8 +10,8 @@
 <body>
     <div class = contenedor>
         <div id="nav">
-            <div id="name" href="index.html">El Resto de Tu Vida</div>
             <div id="nav-items">
+                <div id="name"> <a href="index.html">El Resto de Tu Vida</div>
                 <div id="item-nav"><a href="index.html #productos">Productos</a></div>
                 <div id="item-nav"><a href="index.html #nosotros">Nosotros</a></div>
                 <div id="item-nav"><a href="Form.html">Contacto</a></div>
@@ -21,62 +21,66 @@
             <div class="cont-form">
 
                 <div class="info">
-                    <div class="title-plato-carta">
+                    <div class="cuadro-info">
                         <h4>Horarios:</h4>
                         <p>Domingos, Martes y Miércoles de 19 a 02 hs - Cierre de cocina 01 am</p>
                         <p>Jueves, Viernes y Sábados de 19 a 03 hs - Cierre de cocina 02 am</p>
                     </div>
                 </div>                
                 <br>
-                <h2 id="contacto">O escribinos:</h2>
-                <form class="formulario" method="post">
-                <label for="nombre"><h3>* Nombre</h3>
-                    <input type="text" name="nombre" placeholder="Juan" required>
-                </label>
-    
-                <label for="apellido"><h3>* Apellido</h3>
-                    <input type="text" name="apellido" placeholder="Perez" required>
-                </label>
                 
-                <label for="email"><h3>* Email</h3>
-                    <input type="email" name="correo" placeholder="juanperez@gmail.com" required>
-                </label>
-    
-                <label for="telefono"><h3>* Teléfono</h3>
-                    <input type="tel" id="phone" name="telefono" placeholder="01155642245" pattern="[0-9]{3}[0-9]{4}[0-9]{4}">
+                <div class="formulario-container">
 
-                </label>
+                <h2 id="contacto">O escribinos:</h2>
+
+                <form class="formulario" method="post">
+                    <label for="nombre"><h3>Nombre</h3>
+                        <input type="text" name="nombre" placeholder="Juan" required>
+                    </label>
                 
-    
-                <label for="esMayor18"><h3>¿Sos mayor de 18 </h3>
-                    <span id="span1" ><input type="radio" name="esMayor18" value="si" required >Sí</span>
-                    <span id="span1"><input type="radio" name="esMayor18" value="no" required >No</span>
-                </label>
-    
-            
-                <label for="genero"><h3>Género</h3>
-                    <select name="genero" id="genero">
-                        <option selected="" value="Default">otro</option>
-                        <option value="femenino">Femenino</option>
-                        <option value="masculino">Masculino</option>
-                    </select>
-                </label>
-    
-    
-                <label for="comentarios" id=""><h3>Comentarios:</h3>
-                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-                </label>
-    
-                <label for="fechaNac"><h3>Fecha de nacimiento:</h3>
-                <input type="date" id="fechaNac" name="fechaNac" min="1900-01-01" max="2022-04-18">
-                     </label>
+                    <label for="apellido"><h3>Apellido</h3>
+                        <input type="text" name="apellido" placeholder="Perez" required>
+                    </label>
+                    
+                    <label for="email"><h3>Email</h3>
+                        <input type="email" name="correo" placeholder="juanperez@gmail.com" required>
+                    </label>
+                
+                    <label for="telefono"><h3>Teléfono</h3>
+                        <input type="tel" id="phone" name="telefono" placeholder="01155642245" pattern="[0-9]{3}[0-9]{4}[0-9]{4}">
+                    
+                    </label>
+                    
+                
+                    <label for="esMayor18"><h3>¿Sos mayor de 18 </h3>
+                        <span id="span1" ><input type="radio" name="esMayor18" value="si" required >Sí</span>
+                        <span id="span1"><input type="radio" name="esMayor18" value="no" required >No</span>
+                    </label>
+                
+                
+                    <label for="genero"><h3>Género</h3>
+                        <select name="genero" id="genero">
+                            <option selected="" value="Default">otro</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="masculino">Masculino</option>
+                        </select>
+                    </label>
+                
+                
+                    <label for="comentarios" id=""><h3>Comentarios:</h3>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    </label>
+                
+                    <label for="fechaNac"><h3>Fecha de nacimiento:</h3>
+                    <input type="date" id="fechaNac" name="fechaNac" min="1900-01-01" max="2022-04-18"  required>
+                         </label>
     
                 <div class="submit-btn">
                     <input type="submit" name="submit" value="Enviar">
                 </div>                
                 </form>                
             </div>
-    
+        </div>
             
             <footer class="footer">
                 <ul>

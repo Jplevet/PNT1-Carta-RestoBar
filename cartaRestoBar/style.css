@@ -20,8 +20,9 @@ html {
     align-items: flex-end;    
 }
 #name {
-    padding-left: 10px;
     font-size: large;
+    text-align: center;
+    color: black;
 }
 
 a {
@@ -111,6 +112,7 @@ footer il a {
  }
 
 .info{
+    margin: 20px;
     display: flex;
     flex-basis: 25%;
     justify-content: center;
@@ -118,3 +120,26 @@ footer il a {
     border: 1px solid #e5e5e5;
     border-radius: 6px;
  }
+
+ .formulario-container{    
+    border: 1px solid #e5e5e5;
+    padding: 50px;
+    margin: 20px;
+    text-align: left;
+ }
+
+ .formulario{
+    text-align: center;
+ }
+
+ #contacto{
+    text-align: left;
+ }
+
+ .cuadro-info {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+}
