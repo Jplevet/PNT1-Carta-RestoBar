@@ -33,17 +33,17 @@
 
                 <h2 id="contacto">O escribinos:</h2>
 
-                <form class="formulario" method="post">
+                <form class="formulario" method="post" onsubmit="validarFormulario();">
                     <label for="nombre"><h3>Nombre</h3>
-                        <input type="text" name="nombre" placeholder="Juan" required>
+                        <input type="text" id="nombre" placeholder="Juan">
                     </label>
                 
                     <label for="apellido"><h3>Apellido</h3>
-                        <input type="text" name="apellido" placeholder="Perez" required>
+                        <input type="text" id="apellido" placeholder="Perez" required>
                     </label>
                     
                     <label for="email"><h3>Email</h3>
-                        <input type="email" name="correo" placeholder="juanperez@gmail.com" required>
+                        <input type="email" id="correo" placeholder="juanperez@gmail.com">
                     </label>
                 
                     <label for="telefono"><h3>Teléfono</h3>
@@ -93,10 +93,6 @@
             </footer>
 
     </div>
-
-
-
-
-
+    <script src="JavaScript/validaciones.js"></script>
 </body>
 </html>
